@@ -31,6 +31,10 @@ body {
 */
 
 /* Common */
+.clear {
+	clear: both;
+}
+
 a {
 	text-decoration: none;
 }
@@ -49,6 +53,11 @@ img {
 
 .text-center {
 	text-align: center !important;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 1.5;
 }
 
 /* Main */
@@ -419,10 +428,88 @@ img {
 #content {
 }
 /* Start Thong tin tuyen sinh */
+
 #content .content_section {
 	padding: 90px 0;
 	background-color: #f7f7f7;
 }
+
+.heading_box a {
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	color: #e2a606;
+}
+
+.heading_box h2 {
+	margin-bottom: 8px;
+}
+
+.heading_text {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.sub_heading span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #3498db;
+}
+/* Start Admisstion img */
+
+.admisstions_list {
+	margin: 0 -15px;
+}
+
+.admisstions_item {
+	float: left;
+	width: 33.333333%;
+	padding: 0 15px;
+	/* max-height: 225px; */
+}
+
+.admisstions_item:hover img {
+	transform: scale(1.2);
+}
+
+.admission_box {
+	margin-bottom: 10px;
+}
+
+.admissions_img {
+	box-sizing: border-box;
+	width: 100%;
+	max-height: 230px;
+	transition: transform 0.3s;
+}
+
+.admissions_content {
+	height: 150px;
+	padding: 10px 10px;
+}
+
+.admissions_content h3 {
+	margin-bottom: 8px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.admission_text {
+	background-color: #ffffff;
+	height: 150px;
+	margin: -78px 25px 0px 25px;
+	position: relative;
+	border: 1px solid #c3c3c3;
+	border-top: none;
+}
+
+.admission_text a {
+	color: #333333;
+	line-height: 2;
+}
+
+/* End Admisstion img */
 /* End Thong tin tuyen sinh */
 /* End Content */
 
