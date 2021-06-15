@@ -376,16 +376,14 @@ h3 {
 	letter-spacing: 0.5px;
 }
 
-
 /* #slider .banner_text .btn_text:hover:before {
 	transform: scaleX(1);
 	opacity: 1;
 } */
 
 #slider .banner_text .btn_text:hover {
-    background: #28303b;
-    
-}	
+	background: #28303b;
+}
 
 #slider .mask:after {
 	position: absolute;
@@ -397,21 +395,19 @@ h3 {
 	content: "";
 }
 
-
-
 #slider .arrows {
 	visibility: hidden;
 	color: #fff;
 	border: 1px solid #fff;
 	cursor: pointer;
-    position: absolute;
-    width: 40px;
-    height: 40px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
 	line-height: 40px;
-    top: 50%;
-    display: block;
-    z-index: 1000;
-    font-size: 14px;
+	top: 50%;
+	display: block;
+	z-index: 1000;
+	font-size: 14px;
 	display: block;
 	text-align: center;
 }
@@ -420,7 +416,6 @@ h3 {
 	visibility: visible;
 }
 
-
 #slider .left_arrow {
 	transform: matrix(1, 0, 0, 1, 50, -20);
 	left: 0px;
@@ -428,13 +423,13 @@ h3 {
 
 #slider .right_arrow {
 	transform: matrix(1, 0, 0, 1, -90, -20);
-    left: 100%;
-}	
+	left: 100%;
+}
 
 #slider .left_arrow:hover,
 #slider .right_arrow:hover {
 	background: #daa106;
-    border: 1px solid #daa106;
+	border: 1px solid #daa106;
 }
 
 /* End Silder */
@@ -484,7 +479,7 @@ h3 {
 }
 
 .admisstions_item:hover img {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .admission_box {
@@ -495,9 +490,9 @@ h3 {
 	box-sizing: border-box;
 	width: 100%;
 	max-height: 230px;
-	transition: transform 0.3s;
+	transition: transform 0.5s;
 }
-
+/* End Admisstion img */
 .admissions_content {
 	height: 150px;
 	padding: 10px 10px;
@@ -517,6 +512,7 @@ h3 {
 	position: relative;
 	border: 1px solid #c3c3c3;
 	border-top: none;
+	transition: transform 0.5s;
 }
 
 .admission_text a {
@@ -524,7 +520,12 @@ h3 {
 	line-height: 2;
 }
 
-/* End Admisstion img */
+.admisstions_item:hover .admission_text {
+	top: -10px;
+	background-color: #f6bb18;
+	border: 1px solid #fbb908;
+}
+
 /* End Thong tin tuyen sinh */
 /* End Content */
 
