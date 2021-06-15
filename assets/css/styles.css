@@ -37,12 +37,13 @@ body {
 
 a {
 	text-decoration: none;
+	color: #222;
 }
 
 img {
 	max-width: 100%;
 	height: auto !important;
-	/* vertical-align: middle; */
+	vertical-align: middle;
 	/* border-style: none; */
 }
 
@@ -58,6 +59,23 @@ img {
 h3 {
 	font-size: 20px;
 	line-height: 1.5;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.container {
+	width: 1140px;
+	max-width: 100%;
+	padding: 0 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Main */
@@ -79,19 +97,14 @@ h3 {
 	height: 57.2px;
 }
 
-.container {
-	width: 1140px;
-	max-width: 100%;
-	padding: 0 15px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .welcome {
 	display: inline-block;
 }
 
-.welcome > p > a:hover {
+.welcome > p > a:hover,
+.why_nuce_text ul li,
+.right_content .text-content:hover a,
+.right_content .why_nuce_text a:hover {
 	color: #e2a606;
 }
 
@@ -209,10 +222,6 @@ h3 {
 .right_mid_header p span {
 	display: block;
 	font-weight: 400;
-}
-
-.right_mid_header p span a {
-	color: #222;
 }
 
 .right_mid_header a:hover {
@@ -526,7 +535,61 @@ h3 {
 	border: 1px solid #fbb908;
 }
 
+.admisstions_item:hover a {
+	color: #ffffff;
+}
 /* End Thong tin tuyen sinh */
+
+/* Start Why Nuce */
+.why_nuce .row {
+	margin: 0 -15px;
+	position: relative;
+}
+
+.why_nuce_img {
+	display: inline-block;
+	padding: 0 15px;
+	width: 50%;
+	max-width: 50%;
+}
+
+.why_nuce_img img {
+	/* margin-bottom: 90px; */
+	/* position: relative; */
+}
+
+.right_content {
+	display: inline-block;
+	max-width: 50%;
+	position: absolute;
+}
+
+.text-content {
+	font-size: 30px;
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+
+.text-content h4 {
+	margin-bottom: 8px;
+}
+
+.why_nuce_text span {
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.why_nuce_text ul li {
+	list-style: none;
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+/* End Why Nuce */
+
 /* End Content */
 
 #footer {
