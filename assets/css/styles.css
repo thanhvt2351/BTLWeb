@@ -1,0 +1,430 @@
+/* Reset CSS */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	/* font-family: "Roboto", sans-serif; */
+}
+
+body {
+	line-height: 1.82em;
+	color: #000;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Roboto", sans-serif;
+}
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đên chi tiết
+*/
+
+/* 
+1. vị trí
+2. Kích thước
+3. Máu sắc
+4. Kiểu dáng(kiểu chữ, hình dạng,...)
+*/
+
+/* Common */
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+	/* vertical-align: middle; */
+	/* border-style: none; */
+}
+
+.mg-tb-8 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+/* Main */
+
+.main {
+	height: 2300px;
+}
+
+/* Start Header */
+
+#header {
+	position: relative;
+	z-index: 9;
+}
+/* Start Top Header */
+.top_part_block {
+	background-color: #28303b;
+	color: #fff;
+	height: 57.2px;
+}
+
+.container {
+	width: 1140px;
+	max-width: 100%;
+	padding: 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.welcome {
+	display: inline-block;
+}
+
+.welcome > p > a:hover {
+	color: #e2a606;
+}
+
+.welcome > p > a {
+	color: #fff;
+	line-height: 57.2px;
+}
+
+.social-list {
+	display: inline-block;
+	float: right;
+}
+#header .google {
+	font-size: 16px;
+}
+
+.social-list a {
+	padding: 0 10px;
+}
+
+.top_part_block .social-list a:hover i {
+	color: #e2a606;
+}
+
+.social-list a i {
+	color: #fff;
+	line-height: 57.2px;
+	height: 15.2px;
+}
+/* End Top Header */
+
+/* Start Mid Header */
+#header .mid_part_block {
+	padding: 26px 0 49px 0;
+	color: #112b80;
+}
+
+.left_mid_header {
+	display: inline-block;
+	position: relative;
+}
+
+.mid_part_block .logo {
+	display: inline-block;
+	width: 127.5px;
+	padding-right: 15px;
+}
+
+.title {
+	margin-top: 8px;
+	min-width: 427px;
+	display: inline-block;
+	position: absolute;
+}
+
+.title .site-title {
+	font-size: 18px;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: normal;
+}
+
+.title .sub-title {
+	font-size: 14px;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: normal;
+}
+
+.website-name {
+	font-size: 21px;
+	font-weight: bold;
+	font-family: "Myriad Pro", sans-serif;
+	padding-top: 6px;
+}
+
+.right_mid_header {
+	display: inline-block;
+	float: right;
+}
+
+.info {
+	margin-top: 25px;
+}
+
+.child_child_info li {
+	display: inline-block;
+	position: relative;
+	border-right: 1px solid #cfcfd0;
+}
+
+.child_child_info li:last-child {
+	border: none;
+}
+
+.child_child_info li i {
+	color: #e2a606;
+	font-size: 28px;
+	height: 50px;
+	left: 0;
+	line-height: 50px;
+	margin-top: -25px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 50px;
+}
+
+.right_mid_header p {
+	margin-right: 15px;
+	padding-left: 50px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.right_mid_header p span {
+	display: block;
+	font-weight: 400;
+}
+
+.right_mid_header p span a {
+	color: #222;
+}
+
+.right_mid_header a:hover {
+	color: #e2a606;
+}
+
+/* End Mid Header */
+
+/* Start Navbar */
+
+.navbar_sticky {
+	position: relative;
+	top: -21px;
+}
+
+#header ul li {
+	display: inline-block;
+	position: relative;
+}
+.main_menu_block {
+	background-color: #3b5998;
+	padding: 5px;
+}
+
+.navbar li {
+	font-size: 14px;
+}
+
+.navbar > li {
+	display: inline-block;
+}
+
+.navbar > li:last-child {
+	float: right;
+}
+
+.navbar > li:last-child a {
+	padding: 8px 15px 8px 30px;
+	margin-right: 5px;
+}
+
+.navbar_menu .navbar {
+	border: solid 1px #071527;
+	height: 51px;
+}
+
+.navbar > li > a {
+	margin: 7px 0;
+	padding: 7px 9px;
+	color: #fff;
+	border-right: 1px dashed #565656;
+	font-size: 14px;
+	line-height: 52px;
+}
+
+.navbar li .custom_btn_block {
+	background: #f6bb18 none repeat scroll 0 0;
+	border: 0 none;
+	color: #222;
+	font-weight: 700;
+	padding-right: 16px;
+}
+
+.main_menu_block ul li a.custom_btn_block::before {
+	background: #3b5998;
+	content: "";
+	height: 90%;
+	left: -24px;
+	position: absolute;
+	top: 0;
+	transform: skewX(-30deg);
+	width: 37px;
+}
+.navbar .dropdown_menu {
+	display: none;
+	margin-top: -2px;
+	position: absolute;
+	min-width: 235px;
+	margin-left: -5px;
+	border-bottom: 2px solid #333;
+}
+.navbar li:hover .dropdown_menu {
+	display: block;
+}
+
+.dropdown_menu li {
+	display: block !important;
+	border-bottom: 1px solid #919191;
+	background-color: #ffffff;
+}
+.dropdown_menu li:hover a {
+	color: #faa03b;
+}
+
+.dropdown_menu li a::before {
+	border-radius: 50%;
+	content: "\f192";
+	font-family: "Font Awesome 5 Free";
+	font-size: 10px;
+	left: 13px;
+	line-height: 9px;
+	margin-top: -4px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+}
+.dropdown_menu li a {
+	padding: 15px 6px 15px 30px;
+	font-size: 14px;
+	line-height: 1.7;
+	display: block;
+	color: #333333;
+	position: relative;
+	transition: 0.4s;
+	border: none;
+}
+
+.dropdown_menu li i {
+}
+/* End Navbar */
+
+/* Start Silder */
+#slider {
+	position: relative;
+	margin-top: -60px;
+	padding-top: 45%;
+	background: url("../img/slider-show/tuyensinh2019_1554095914591.jpg") center
+		center/ cover no-repeat;
+}
+
+#slider .banner_text {
+	position: absolute;
+	left: 240px;
+	top: 165px;
+	width: 600px;
+}
+
+#slider .banner_text a {
+	color: #ffffff;
+}
+
+.text-heading a {
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 800;
+}
+
+.text-heading h2 {
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+#slider .banner_text .btn_text {
+	text-transform: uppercase;
+	background-color: #e2a606;
+	padding: 14px 42px;
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+#slider .banner_text .btn_text::before {
+	/* background-color: #28303b; */
+	/* transform: scaleX(1);
+	opacity: 1; */
+}
+
+#slider .banner_text .btn_text:hover:before {
+	transform: scaleX(1);
+	opacity: 1;
+}
+
+#slider .banner_text .btn_text:hover {
+	background-color: #28303b;
+	/* transform: scaleX(1);
+	opacity: 1; */
+}
+
+#slider .mask:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.69);
+	content: "";
+}
+
+#slider .arrows:before {
+	font-size: 15px;
+	color: #fff;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+}
+
+#slider .arrows {
+	cursor: pointer;
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	display: block;
+	z-index: 1000;
+}
+
+/* End Silder */
+
+/* Start Content */
+#content {
+}
+/* Start Thong tin tuyen sinh */
+#content .content_section {
+	padding: 90px 0;
+	background-color: #f7f7f7;
+}
+/* End Thong tin tuyen sinh */
+/* End Content */
+
+#footer {
+}
