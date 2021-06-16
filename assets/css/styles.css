@@ -78,6 +78,22 @@ h6 {
 	margin-right: auto;
 }
 
+.heading_box a {
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	color: #e2a606;
+}
+
+.heading_box h2 {
+	margin-bottom: 8px;
+}
+
+.heading_text {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
 /* Main */
 
 .main {
@@ -453,22 +469,6 @@ h6 {
 	background-color: #f7f7f7;
 }
 
-.heading_box a {
-	text-transform: uppercase;
-	font-family: "Montserrat", sans-serif;
-	font-size: 30px;
-	color: #e2a606;
-}
-
-.heading_box h2 {
-	margin-bottom: 8px;
-}
-
-.heading_text {
-	padding: 0 15px;
-	margin-bottom: 30px;
-}
-
 .sub_heading span {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 22px;
@@ -589,6 +589,45 @@ h6 {
 	font-size: 25px;
 }
 /* End Why Nuce */
+
+/* Start imagine in NUCE */
+.container-filter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.container-filter li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.container-filter li a {
+	display: block;
+	padding: 6px 10px;
+	margin: 0px 5px;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    cursor: pointer;
+	color: #fff;
+	border: 1px solid;
+    border-radius: 6px;
+	background-color: #e2a606;
+}
+
+.container-filter li a.active,
+.container-filter li a:hover {
+    background: transparent !important;
+    border: 1px solid;
+    color: #222;
+	border-color: #e2a606;
+}
+/* End imagine in NUCE */
 
 /* End Content */
 
