@@ -489,6 +489,11 @@ h6 {
 
 .admisstions_item:hover img {
 	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+	-moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+	-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+	-o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
 .admission_box {
@@ -590,20 +595,26 @@ h6 {
 }
 /* End Why Nuce */
 
+/* Start Banner */
+.div_banner img {
+	width: 100%;
+}
+/* End Banner */
+
 /* Start imagine in NUCE */
 .container-filter {
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 10px;
-    padding: 0;
-    text-align: center;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: center;
 }
 
 .container-filter li {
-    list-style: none;
-    display: inline-block;
-    margin-bottom: 10px;
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .container-filter li a {
@@ -611,22 +622,54 @@ h6 {
 	padding: 6px 10px;
 	margin: 0px 5px;
 	text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    cursor: pointer;
+	letter-spacing: 2px;
+	position: relative;
+	cursor: pointer;
 	color: #fff;
 	border: 1px solid;
-    border-radius: 6px;
+	border-radius: 6px;
 	background-color: #e2a606;
 }
 
 .container-filter li a.active,
 .container-filter li a:hover {
-    background: transparent !important;
-    border: 1px solid;
-    color: #222;
+	background: transparent !important;
+	border: 1px solid;
+	color: #222;
 	border-color: #e2a606;
 }
+
+.item_box {
+	float: left;
+	width: 25%;
+	min-height: 1px;
+	padding: 0 10px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	background: #000;
+}
+
+.item_box > a {
+	display: block;
+	opacity: 0.5;
+	position: relative;
+	z-index: 7;
+}
+
+.item-box::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.44);
+	opacity: 0;
+	transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+}
+
 /* End imagine in NUCE */
 
 /* End Content */
