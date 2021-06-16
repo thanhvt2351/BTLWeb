@@ -640,35 +640,49 @@ h6 {
 }
 
 .item_box {
-	float: left;
-	width: 25%;
-	min-height: 1px;
-	padding: 0 10px;
 	position: relative;
-	overflow: hidden;
-	display: block;
-	background: #000;
-}
+    overflow: hidden;
+    display: block;
+    background: #000;
+}	
+
+
+/* .container-grid,
+.nf-item,
+.item-box > a {
+    cursor: pointer;
+    position: relative;
+    z-index: 7;
+} */
 
 .item_box > a {
-	display: block;
-	opacity: 0.5;
-	position: relative;
-	z-index: 7;
+    display: block;
+    opacity: 0.5;
+	cursor: pointer;
+    position: relative;
+    z-index: 7;
 }
 
-.item-box::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
+.item_box img {
 	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.44);
-	opacity: 0;
-	transition: all 0.3s linear 0s;
-	-webkit-transition: all 0.3s linear 0s;
 }
+
+.container_grid {
+	position: relative;
+    height: 253.719px;
+	margin: 0px -15px;
+	padding: 10px;
+}
+
+.album_item {
+	padding: 10px;
+	
+}
+.nf_col_4 .nf_item {
+	width: 25%;
+	min-height: 1px;
+}
+
 
 /* End imagine in NUCE */
 
