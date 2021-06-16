@@ -117,8 +117,9 @@ h6 {
 	display: inline-block;
 }
 
-.welcome > p > a:hover,
 .why_nuce_text ul li,
+.read_more_1 a:hover,
+.welcome > p > a:hover,
 .right_content .text-content:hover a,
 .right_content .why_nuce_text a:hover {
 	color: #e2a606;
@@ -671,22 +672,33 @@ h6 {
 	position: relative;
     height: 253.719px;
 	margin: 0px -15px;
+}
+
+
+.container_grid .nf_item {
+	width: 25%;
+	min-height: 1px;
 	padding: 10px;
 }
 
-.album_item {
-	padding: 10px;
+.read_more_1 {
+	top: unset !important;
+	bottom: -40px !important;
+	left: 0 !important;
 	
 }
-.nf_col_4 .nf_item {
-	width: 25%;
-	min-height: 1px;
-}
+
+.read_more_1 a {
+	font-size: 14px;
+    font-style: italic;
+    text-decoration: underline !important;
+    cursor: pointer;
+    font-weight: 500;
 
 
 /* End imagine in NUCE */
 
 /* End Content */
 
-#footer {
-}
+/* #footer {
+} */
