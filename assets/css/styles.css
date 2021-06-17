@@ -835,8 +835,155 @@ h6 {
 .right_registration .testimonial span {
 	display: block;
 }
-
 /* End Registration */
+
+/* Start news */
+.news .heading_box h2,
+.news .heading_box h2 span {
+	text-transform: none;
+}
+
+.news .heading_box {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.news_item .img_box img {
+	min-height: 100%;
+	width: 100%;
+}
+
+.img_box .overlay .box .content ul li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	background: #fff;
+	color: #222;
+	border: 1px solid #fff;
+	line-height: 38px;
+	font-size: 18px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.img_box .overlay .box .content ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.img_box .overlay .box .content ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.img_box .overlay .box .content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.img_box .overlay .box {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.img_box .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(33, 33, 33, 0.5);
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	transition: all 0.5s ease;
+}
+
+.img_box {
+	height: 188px;
+	border: 1px solid #eee;
+	border-bottom: none;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+}
+
+.news_item {
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+	float: left;
+	padding: 0 15px;
+}
+
+/*Create an Overlay Zoom Effect */
+.img_box {
+	position: relative;
+	/* width: 50%; */
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #008cba;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	transition: 0.3s ease;
+}
+
+.img_box:hover .overlay {
+	transform: scale(1);
+}
+/*  */
+.content-box .date-box .inner .date {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	line-height: 20px;
+	background-color: #e2a606;
+	padding: 8px 0;
+}
+
+.content-box .date-box .inner {
+	border: 1px solid #fbb908;
+	text-align: center;
+	width: 65px;
+	background: #fff;
+}
+
+.single_blog .content-box .date-box,
+.single_blog .content-box .content {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.single_blog .content-box .date-box {
+	padding-right: 25px;
+}
+
+.single_blog .content-box {
+	border: 1px solid #eee;
+	padding: 30px 5px;
+	height: 215px;
+}
+
+.single_blog .content-box .content h3 {
+	color: #222;
+	line-height: 26px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	/* text-transform: capitalize; */
+	font-size: 17px;
+}
+
+/* End news */
+
 /* End Content */
 #footer {
 }
