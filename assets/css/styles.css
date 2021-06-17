@@ -987,6 +987,26 @@ h6 {
 	margin-bottom: 30px;
 }
 
+.partners_logo .logo_item {
+	width: 214px;
+    margin-right: 10px;
+	position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.partners_logo .logo_item .client_logo {
+	height: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.partners_logo .logo_item .client_logo img {
+	width: auto;
+    display: inline-block;
+	max-height: 100px;
+}
+
 /* End partners-logo */
 
 /* End Content */
