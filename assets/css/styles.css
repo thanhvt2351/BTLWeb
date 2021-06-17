@@ -498,13 +498,17 @@ h6 {
 	/* max-height: 225px; */
 }
 
+.box_img {
+	overflow: hidden;
+}
+
+.admisstions_item img {
+	width: 100%;
+	transition: all 0.5s ease-in-out;
+}
+
 .admisstions_item:hover img {
 	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
-	-moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
-	-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
-	-o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
 .admission_box {
@@ -675,6 +679,11 @@ h6 {
 
 .item_box img {
 	width: 100%;
+	transition: all 0.5s ease-in-out;
+}
+
+.item_box:hover img {
+	transform: scale(1.1);
 }
 
 .container_grid {
@@ -707,9 +716,9 @@ h6 {
 /* Start Registration */
 .content_section .appointment {
 	margin-right: 0;
-    position: static;
-    background: #fff;
-    padding: 15px 30px 19px 30px;
+	position: static;
+	background: #fff;
+	padding: 15px 30px 19px 30px;
 }
 
 .form_full {
@@ -723,7 +732,7 @@ h6 {
 .appointment .form_field_wrapper label {
 	margin: 6px 0px;
 	color: #323232;
-    font-size: 13px;
+	font-size: 13px;
 	font-weight: 600;
 	padding-right: 3px;
 	display: inline-block;
@@ -738,9 +747,9 @@ h6 {
 	color: #202020;
 	background-color: #fff;
 	outline: none;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 13px;
 }
 
 .form_field_wrapper textarea {
@@ -751,21 +760,20 @@ h6 {
 .form_field_wrapper .btn_text {
 	background-color: #daa106;
 	font-size: 14px;
-    color: #fff !important;
-    line-height: 44px;
-    padding: 0 22px;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    height: 44px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    position: relative;
-    z-index: 2;
+	color: #fff !important;
+	line-height: 44px;
+	padding: 0 22px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	height: 44px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	position: relative;
+	z-index: 2;
 	outline: none;
-    border: none;
+	border: none;
 	cursor: pointer;
-
 }
 
 .form_field_wrapper .btn_text:hover {
