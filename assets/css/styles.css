@@ -78,7 +78,7 @@ h6 {
 	margin-right: auto;
 }
 
-.heading_box a {
+.heading_box span {
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif;
 	font-size: 30px;
@@ -87,11 +87,21 @@ h6 {
 
 .heading_box h2 {
 	margin-bottom: 8px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	color: #222;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.1;
 }
 
 .heading_text {
 	padding: 0 15px;
 	margin-bottom: 30px;
+}
+
+.mt_10 {
+	margin-top: 10px;
 }
 
 /* Main */
@@ -295,7 +305,7 @@ h6 {
 }
 
 .navbar li .custom_btn_block {
-	background: #f6bb18 none repeat scroll 0 0;
+	background: #e2a606 none repeat scroll 0 0;
 	border: 0 none;
 	color: #222;
 	font-weight: 700;
@@ -698,6 +708,75 @@ h6 {
 }
 /* End imagine in NUCE */
 
+/* Start Registration */
+.content_section .appointment {
+	margin-right: 0;
+    position: static;
+    background: #fff;
+    padding: 15px 30px 19px 30px;
+}
+
+.form_full {
+	width: 100%;
+}
+
+.blog_section {
+	max-width: 50%;
+}
+
+.appointment .form_field_wrapper label {
+	margin: 6px 0px;
+	color: #323232;
+    font-size: 13px;
+	font-weight: 600;
+	padding-right: 3px;
+	display: inline-block;
+}
+
+.form_field_wrapper input,
+.form_field_wrapper textarea {
+	margin-bottom: 0px;
+	padding: 5px 15px;
+	line-height: inherit;
+	border: 1px solid #c7c6c6;
+	color: #202020;
+	background-color: #fff;
+	outline: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.form_field_wrapper textarea {
+	height: 80px;
+	min-width: 50px;
+}
+
+.form_field_wrapper .btn_text {
+	background-color: #daa106;
+	font-size: 14px;
+    color: #fff !important;
+    line-height: 44px;
+    padding: 0 22px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 44px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+	outline: none;
+    border: none;
+	cursor: pointer;
+
+}
+
+.form_field_wrapper .btn_text:hover {
+	background-color: #28303b;
+}
+
+/* End Registration */
 /* End Content */
 #footer {
 	
