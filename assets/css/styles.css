@@ -104,7 +104,6 @@ h6 {
 	margin-top: 10px;
 }
 
-
 .pb_15 {
 	padding-bottom: 15px;
 }
@@ -112,7 +111,7 @@ h6 {
 /* Main */
 
 .main {
-	height: 2300px;
+	height: 5000px;
 }
 
 /* Start Header */
@@ -493,7 +492,7 @@ h6 {
 /* Start Admisstion img */
 
 .admisstions_list {
-	margin: 0 -15px;
+	/* margin: 0 -15px; */
 }
 
 .admisstions_item {
@@ -566,7 +565,8 @@ h6 {
 /* End Thong tin tuyen sinh */
 
 /* Start Why Nuce */
-.why_nuce .row {
+.why_nuce .row,
+.content_section > .container > .row {
 	margin: 0 -15px;
 	position: relative;
 }
@@ -816,7 +816,7 @@ h6 {
 .right_registration .testimonial p {
 	font-size: 16px;
 	margin-bottom: 16px;
-    margin-top: 0;
+	margin-top: 0;
 	font-weight: 400;
 }
 
@@ -829,7 +829,7 @@ h6 {
 	text-transform: uppercase;
 	padding-left: 30px;
 	letter-spacing: 2px;
-    line-height: 17px;
+	line-height: 17px;
 }
 
 .right_registration .testimonial span {
