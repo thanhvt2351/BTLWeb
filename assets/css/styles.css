@@ -104,6 +104,11 @@ h6 {
 	margin-top: 10px;
 }
 
+
+.pb_15 {
+	padding-bottom: 15px;
+}
+
 /* Main */
 
 .main {
@@ -725,8 +730,12 @@ h6 {
 	width: 100%;
 }
 
-.blog_section {
-	max-width: 50%;
+.blog_section,
+.right_registration {
+	width: 50%;
+	padding: 0px 15px;
+	position: relative;
+	float: left;
 }
 
 .appointment .form_field_wrapper label {
@@ -778,6 +787,53 @@ h6 {
 
 .form_field_wrapper .btn_text:hover {
 	background-color: #28303b;
+}
+
+.right_registration .testimonial {
+	padding: 36px 20px;
+	background-color: #fff;
+}
+
+.right_registration .testimonial .invatic_icon {
+	margin-bottom: 28px;
+	display: inline-block;
+}
+
+.right_registration .testimonial .invatic_icon i {
+	font-size: 30px;
+	color: #e2a606;
+}
+
+.right_registration .testimonial .quote_bot {
+	border: 1px solid;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	line-height: 93px;
+	border-color: #e2a606;
+}
+
+.right_registration .testimonial p {
+	font-size: 16px;
+	margin-bottom: 16px;
+    margin-top: 0;
+	font-weight: 400;
+}
+
+.right_registration .testimonial .quote_author {
+	display: block;
+	float: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #000;
+	text-transform: uppercase;
+	padding-left: 30px;
+	letter-spacing: 2px;
+    line-height: 17px;
+}
+
+.right_registration .testimonial span {
+	display: block;
 }
 
 /* End Registration */
