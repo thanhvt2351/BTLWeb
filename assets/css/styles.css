@@ -110,9 +110,9 @@ h6 {
 
 /* Main */
 
-.main {
+/* .main {
 	height: 5000px;
-}
+} */
 
 /* Start Header */
 
@@ -1011,4 +1011,99 @@ h6 {
 
 /* End Content */
 #footer {
+	background-color: #001439;
+    padding: 70px 0 0;
+    position: relative;
+    z-index: 1;
+	display: block;
+}
+
+#footer .row {
+	width: 1140px;
+	margin: 0 -15px;
+}
+
+#footer .left_footer {
+	width: 66.666667%;
+	float: left;
+	padding: 0 15px;
+}
+
+.container .widget:first-child {
+	margin-top: 0;
+}
+
+.container .widget {
+	position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    color: #f5f4f4;
+	position: relative;
+    z-index: 1;
+}
+
+.widget .widget_title {
+	margin-bottom: 36px;
+    color: #fff;
+	line-height: 1.1;
+	font-size: 21.42px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	position: relative;
+    z-index: 1;
+}
+
+.widget_title p {
+	margin-top: 0;
+	margin-bottom: 16px;
+
+}
+
+.widget_info table {
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+.table_footer i {
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+#footer .right_footer {
+    width: 33.333333%;
+	float: left;
+	padding: 0 15px;
+}
+
+#bottom {
+	font-size: 12.855px;
+    background-color: #001133;
+    padding: 19px 0;
+    color: #f5f4f4;
+    margin-top: 60px;
+}
+
+#bottom .bottom_bar_inner {
+	width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+#bottom .bottom_bar_inner .bottom_bar_inner_wrap {
+	display: table;
+	overflow: hidden;    
+	width: 100%;
+}
+
+#bottom .bottom_bar_inner .bottom_bar_content {
+	display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+#copyright {
+	text-align: center;
 }
