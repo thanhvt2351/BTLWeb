@@ -930,7 +930,7 @@ h6 {
 	transition: all 0.5s ease;
 }
 
-.img_box:hover .overlay {
+.single_blog:hover .overlay {
 	transform: scale(1);
 }
 /*  */
@@ -989,21 +989,20 @@ h6 {
 
 .partners_logo .logo_item {
 	width: 214px;
-    margin-right: 10px;
+	margin-right: 10px;
 	position: relative;
-    min-height: 1px;
-    float: left;
+	min-height: 1px;
+	float: left;
 }
 
 .partners_logo .logo_item .client_logo {
 	height: 100px;
-    text-align: center;
-    background: #fff;
+	text-align: center;
 }
 
 .partners_logo .logo_item .client_logo img {
 	width: auto;
-    display: inline-block;
+	display: inline-block;
 	max-height: 100px;
 }
 
@@ -1012,9 +1011,9 @@ h6 {
 /* End Content */
 #footer {
 	background-color: #001439;
-    padding: 70px 0 0;
-    position: relative;
-    z-index: 1;
+	padding: 70px 0 0;
+	position: relative;
+	z-index: 1;
 	display: block;
 }
 
@@ -1035,28 +1034,27 @@ h6 {
 
 .container .widget {
 	position: relative;
-    z-index: 1;
-    margin-top: 50px;
-    color: #f5f4f4;
+	z-index: 1;
+	margin-top: 50px;
+	color: #f5f4f4;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 
 .widget .widget_title {
 	margin-bottom: 36px;
-    color: #fff;
+	color: #fff;
 	line-height: 1.1;
 	font-size: 21.42px;
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 
 .widget_title p {
 	margin-top: 0;
 	margin-bottom: 16px;
-
 }
 
 .widget_info table {
@@ -1070,38 +1068,38 @@ h6 {
 }
 
 #footer .right_footer {
-    width: 33.333333%;
+	width: 33.333333%;
 	float: left;
 	padding: 0 15px;
 }
 
 #bottom {
 	font-size: 12.855px;
-    background-color: #001133;
-    padding: 19px 0;
-    color: #f5f4f4;
-    margin-top: 60px;
+	background-color: #001133;
+	padding: 19px 0;
+	color: #f5f4f4;
+	margin-top: 60px;
 }
 
 #bottom .bottom_bar_inner {
 	width: 1170px;
-    margin: 0 auto;
-    max-width: 90%;
+	margin: 0 auto;
+	max-width: 90%;
 }
 
 #bottom .bottom_bar_inner .bottom_bar_inner_wrap {
 	display: table;
-	overflow: hidden;    
+	overflow: hidden;
 	width: 100%;
 }
 
 #bottom .bottom_bar_inner .bottom_bar_content {
 	display: table-cell;
-    margin: 0;
-    text-align: left;
-    vertical-align: middle;
-    width: 50%;
-    text-transform: uppercase;
+	margin: 0;
+	text-align: left;
+	vertical-align: middle;
+	width: 50%;
+	text-transform: uppercase;
 }
 
 #copyright {
