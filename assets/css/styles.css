@@ -82,7 +82,6 @@ h6 {
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif;
 	font-size: 30px;
-	color: #e2a606;
 }
 
 .heading_box h2 {
@@ -108,6 +107,19 @@ h6 {
 	padding-bottom: 15px;
 }
 
+.heading_box span,
+.why_nuce_text ul li,
+.child_child_info li i,
+.right_registration .testimonial .invatic_icon i,
+.read_more_1 a:hover,
+.welcome > p > a:hover,
+.right_mid_header a:hover,
+.right_content .text-content:hover a,
+.right_content .why_nuce_text a:hover,
+.top_part_block .social-list a:hover i {
+	color: #e2a606;
+}
+
 /* Main */
 
 /* .main {
@@ -131,14 +143,6 @@ h6 {
 	display: inline-block;
 }
 
-.why_nuce_text ul li,
-.read_more_1 a:hover,
-.welcome > p > a:hover,
-.right_content .text-content:hover a,
-.right_content .why_nuce_text a:hover {
-	color: #e2a606;
-}
-
 .welcome > p > a {
 	color: #fff;
 	line-height: 57.2px;
@@ -154,10 +158,6 @@ h6 {
 
 .social-list a {
 	padding: 0 10px;
-}
-
-.top_part_block .social-list a:hover i {
-	color: #e2a606;
 }
 
 .social-list a i {
@@ -230,7 +230,6 @@ h6 {
 }
 
 .child_child_info li i {
-	color: #e2a606;
 	font-size: 28px;
 	height: 50px;
 	left: 0;
@@ -253,10 +252,6 @@ h6 {
 .right_mid_header p span {
 	display: block;
 	font-weight: 400;
-}
-
-.right_mid_header a:hover {
-	color: #e2a606;
 }
 
 /* End Mid Header */
@@ -369,9 +364,6 @@ h6 {
 	transition: 0.4s;
 	border: none;
 }
-
-.dropdown_menu li i {
-}
 /* End Navbar */
 
 /* Start Silder */
@@ -475,8 +467,7 @@ h6 {
 /* End Silder */
 
 /* Start Content */
-#content {
-}
+
 /* Start Thong tin tuyen sinh */
 
 #content .content_section {
@@ -490,10 +481,6 @@ h6 {
 	color: #3498db;
 }
 /* Start Admisstion img */
-
-.admisstions_list {
-	/* margin: 0 -15px; */
-}
 
 .admisstions_item {
 	float: left;
@@ -576,11 +563,6 @@ h6 {
 	padding: 0 15px;
 	width: 50%;
 	max-width: 50%;
-}
-
-.why_nuce_img img {
-	/* margin-bottom: 90px; */
-	/* position: relative; */
 }
 
 .right_content {
@@ -805,7 +787,6 @@ h6 {
 
 .right_registration .testimonial .invatic_icon i {
 	font-size: 30px;
-	color: #e2a606;
 }
 
 .right_registration .testimonial .quote_bot {
@@ -1009,6 +990,8 @@ h6 {
 /* End partners-logo */
 
 /* End Content */
+
+/* Start Footer */
 #footer {
 	background-color: #001439;
 	padding: 70px 0 0;
