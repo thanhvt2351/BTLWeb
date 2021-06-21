@@ -1157,20 +1157,18 @@ h6 {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
 }
 
 .chat-box a {
 	display: block;
 	text-align: center;
-	padding: 20px;
+	padding: 16px 17px;
 	transition: all 0.3s ease;
 	color: white;
 	font-size: 25px;
 	border-radius: 100%;
-}
-
-.chat-box a:hover {
-	background-color: #000;
 }
 
 .chat-icon {
