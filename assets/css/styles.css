@@ -1093,51 +1093,51 @@ h6 {
 .icon-bar {
 	position: fixed;
 	right: 0%;
-	top: 20%;
+	top: 16%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-  }
-  
-  .icon-bar a {
+}
+
+.icon-bar a {
 	display: block;
 	text-align: center;
-	padding: 16px;
+	padding: 11px 13px;
 	transition: all 0.3s ease;
 	color: white;
-	font-size: 20px;
-  }
-  
-  .icon-bar a:hover {
+	font-size: 25px;
+}
+
+.icon-bar a:hover {
 	background-color: #000;
-  }
-  
-  .facebook {
-	background: #3B5998;
+}
+
+.facebook {
+	background: #3b5998;
 	color: white;
-  }
-  
-  .twitter {
-	background: #55ACEE;
+}
+
+.twitter {
+	background: #55acee;
 	color: white;
-  }
-  
-  .youtube {
+}
+
+.youtube {
 	background: #bb0000;
 	color: white;
-  }
+}
 
-  /* chat box */
-  .chat-box {
+/* chat box */
+.chat-box {
 	position: fixed;
 	right: 1%;
-	bottom: 0%;	
+	bottom: 0%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-  }
-   
-  .chat-box a {
+}
+
+.chat-box a {
 	display: block;
 	text-align: center;
 	padding: 20px;
@@ -1145,12 +1145,12 @@ h6 {
 	color: white;
 	font-size: 25px;
 	border-radius: 100%;
-  }
-  
-  .chat-box a:hover {
-	background-color: #000;
-  }
+}
 
-  .chat-icon{
+.chat-box a:hover {
+	background-color: #000;
+}
+
+.chat-icon {
 	background: #0714b6;
-  }
+}
