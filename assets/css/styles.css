@@ -1102,7 +1102,7 @@ h6 {
 .icon-bar a {
 	display: block;
 	text-align: center;
-	padding: 11px 13px;
+	padding: 10px 11px;
 	transition: all 0.3s ease;
 	color: white;
 	font-size: 25px;
@@ -1122,9 +1122,31 @@ h6 {
 	color: white;
 }
 
-.youtube {
-	background: #bb0000;
+.print {
+	background-color: rgb(115, 138, 141);
 	color: white;
+}
+
+.arrow {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: left;
+	cursor: pointer;
+}
+
+.arrow > i {
+	font-size: 20px;
+	color: #cccccc;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.icon-bar:hover .arrow > i {
+	opacity: 1;
+	visibility: visible;
 }
 
 /* chat box */
