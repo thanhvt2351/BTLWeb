@@ -1092,10 +1092,10 @@ h6 {
 /* Sticky Social Bar */
 .icon-bar {
 	float: right;
-    position: fixed;
-    right: 0;
-    top: 7%;
-    width: 3pc;
+	position: fixed;
+	right: 0;
+	top: 7%;
+	width: 3pc;
 	z-index: 100020;
 }
 
@@ -1103,16 +1103,16 @@ h6 {
 	padding: 10px 11px;
 	float: right;
 	position: relative;
-    display: block;
-    width: 3pc;
-    margin: 0;
-    outline-offset: -1px;
+	display: block;
+	width: 3pc;
+	margin: 0;
+	outline-offset: -1px;
 	font-size: 25px;
-    text-align: center;
-    transition: width .15s ease-in-out;
-    overflow: hidden;
-    z-index: 100030;
-    cursor: pointer;
+	text-align: center;
+	transition: width 0.15s ease-in-out;
+	overflow: hidden;
+	z-index: 100030;
+	cursor: pointer;
 }
 
 .icon-bar a:hover {
@@ -1127,17 +1127,10 @@ h6 {
 .twitter {
 	background: #55acee;
 	color: white;
-<<<<<<< HEAD
-  }
-  
-  .print {
-	background: rgb(115, 138, 141); 
-=======
 }
 
 .print {
 	background-color: rgb(115, 138, 141);
->>>>>>> d3e91919e9c60661abe430ed994dfa71c98e397b
 	color: white;
 }
 
@@ -1187,4 +1180,12 @@ h6 {
 
 .chat-icon {
 	background: #0714b6;
+}
+
+/* background in read more  */
+.bg-more {
+	position: relative;
+	margin-top: -60px;
+	padding-top: 20%;
+	background: url("../img/title_bg_4.jpg") center center/ cover no-repeat;
 }
