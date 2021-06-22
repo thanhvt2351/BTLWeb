@@ -1186,7 +1186,7 @@ h6 {
 .bg-more {
 	position: relative;
 	margin-top: -60px;
-	padding-top: 22%;
+	padding-top: 19.75%;
 	background: url("../img/title_bg_4.jpg") center center/ cover no-repeat;
 }
 
@@ -1203,7 +1203,6 @@ h6 {
 .bg-more .container .title h1 span {
 	color: #ffffff;
 }
-
 
 /* Tin tuc */
 /* Start Service img */
@@ -1251,18 +1250,17 @@ h6 {
 }
 
 .service_text {
-	
 	border: 1px solid #c3c3c3;
-    padding: 15px 20px;
-    margin: -78px 25px 0px 25px;
-    position: relative;
-    z-index: 3;
-    background: #fff;
-    border-top: 0px;
-    position: relative;
-    z-index: 2;
-    top: 0;
-    transition: all 0.3s ease-in-out;
+	padding: 15px 20px;
+	margin: -78px 25px 0px 25px;
+	position: relative;
+	z-index: 3;
+	background: #fff;
+	border-top: 0px;
+	position: relative;
+	z-index: 2;
+	top: 0;
+	transition: all 0.3s ease-in-out;
 }
 
 .service_text a {
@@ -1278,4 +1276,28 @@ h6 {
 
 .service_item:hover a {
 	color: #ffffff;
+}
+
+/* Các trang bấm khi bầm vào li trên nav */
+.page_read_more .list-child-menu a {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 50px;
+	padding-left: 10px;
+	color: #595959;
+}
+
+.page_read_more .list-child-menu i {
+	font-size: 24px;
+	color: #595959;
+}
+
+/*  */
+.contact ul {
+	padding-left: 40px;
+	margin-bottom: 16px;
+}
+
+.contact p {
+	margin-bottom: 16px;
 }
