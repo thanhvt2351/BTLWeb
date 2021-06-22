@@ -184,20 +184,20 @@ h6 {
 	padding-right: 15px;
 }
 
-.title {
+.left_mid_header .title {
 	margin-top: 8px;
 	min-width: 427px;
 	display: inline-block;
 	position: absolute;
 }
 
-.title .site-title {
+.left_mid_header .title .site-title {
 	font-size: 18px;
 	font-family: "Myriad Pro", sans-serif;
 	font-weight: normal;
 }
 
-.title .sub-title {
+.left_mid_header .title .sub-title {
 	font-size: 14px;
 	font-family: "Myriad Pro", sans-serif;
 	font-weight: normal;
@@ -1182,10 +1182,24 @@ h6 {
 	background: #0714b6;
 }
 
-/* background in read more  */
+/* - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - -  */
 .bg-more {
 	position: relative;
 	margin-top: -60px;
 	padding-top: 22%;
 	background: url("../img/title_bg_4.jpg") center center/ cover no-repeat;
+}
+
+.bg-more .container .title {
+	position: absolute;
+	bottom: 50%;
+}
+
+.bg-more .container .title h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.bg-more .container .title h1 span {
+	color: #ffffff;
 }
