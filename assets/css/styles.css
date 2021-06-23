@@ -1607,3 +1607,15 @@ input[type="text"] {
 	font-size: 16px;
 	color: #f1c40f;
 }
+
+/* - - - - */
+.left-des {
+	width: 475px;
+	display: inline-block;
+	padding-right: 30px;
+}
+
+.right-des {
+	width: 635px;
+	display: inline-block;
+}
