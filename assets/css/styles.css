@@ -1575,10 +1575,14 @@ input[type="text"] {
 	padding: 90px 0;
 }
 
+.service-section .row {
+	margin: 0 -15px;
+}
+
 .service-section p {
 	text-align: justify;
 	font-size: 16px;
-	margin-bottom: 16px;
+	margin-bottom: 17px;
 	margin-top: 0;
 }
 
