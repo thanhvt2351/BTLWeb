@@ -1205,6 +1205,13 @@ h6 {
 	color: #ffffff;
 }
 
+.description .list-child-menu i:hover {
+	color: #e2a606;
+}
+
+.description .list-child-menu a:hover {
+	color: #e2a606;
+}
 /* Tin tuc */
 /* Start Service img */
 .service_list {
@@ -1321,11 +1328,9 @@ h6 {
 	padding: 0 15px;
 }
 
-
-
 .faq .block-title {
 	border-left: 3px solid #daa106;
-    padding-left: 20px;
+	padding-left: 20px;
 	margin-bottom: 35px;
 }
 
@@ -1358,12 +1363,12 @@ h6 {
 input[type="text"] {
 	border: 1px solid #c7c6c6;
 	color: #202020;
-    outline: none;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 13px;
-    padding: 12px 15px;
-    transition: all 0.2s ease 0s;
+	outline: none;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 12px 15px;
+	transition: all 0.2s ease 0s;
 	display: inline-block;
 }
 
@@ -1373,72 +1378,68 @@ input[type="text"] {
 	background-color: #fff;
 }
 
-
 .faq .form-group .search-btn {
 	flex: 1;
 	max-width: 33.333%;
 	padding: 0 15px;
-
 }
 
 .faq .search-btn .search-btn-faq {
 	width: 100%;
 	color: #fff;
-    background-color: #0275d8;
-    border-color: #0275d8;
+	background-color: #0275d8;
+	border-color: #0275d8;
 	display: inline-block;
-    font-weight: 400;
-    line-height: 1.25;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
 	border: 1px solid transparent;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-radius: 4px;
+	padding: 8px 16px;
+	font-size: 16px;
+	border-radius: 4px;
 }
-
 
 .faq .search-btn .search-btn-faq:hover {
 	color: #fff;
 	background-color: #025aa5;
 	border-color: #01549b;
 	cursor: pointer;
-	transition: all .2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .faq-news-block .card {
 	margin: 10px 0 0px 0;
-    border: none;
-    border-radius: 0px;
+	border: none;
+	border-radius: 0px;
 }
 
 .faq-news-block .card-header {
 	border-radius: 0px !important;
 	padding: 0;
-    background: #f2ede9;
+	background: #f2ede9;
 	margin-bottom: 0;
-	border-bottom: 1px solid rgba(0,0,0,.125);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 	cursor: pointer;
 }
 
 .faq-news-block .card-header {
-	margin-top: 0;   
-    
+	margin-top: 0;
 }
 
 .faq-news-block .panel-title {
 	font-size: 16px;
-    color: inherit;
-    font-weight: bold;
+	color: inherit;
+	font-weight: bold;
 }
 
 .faq-news-block .panel-title a {
 	display: block;
 	background-position: right top;
 	padding: 10px 60px 10px 28px;
-    color: #26211d;
-    position: relative;
+	color: #26211d;
+	position: relative;
 	line-height: 24px;
 }
 
@@ -1450,28 +1451,22 @@ input[type="text"] {
 	background-color: #e2a606;
 	color: #fff;
 	position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    width: 48px;
-    height: 100%;
-    text-align: center;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 48px;
+	height: 100%;
+	text-align: center;
 }
 
 .faq-news-block .panel-title a i::before {
 	position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
 	transform: translateY(-50%);
 }
-
-
-
- 
-
-
 
 .faq .right-faq {
 	flex: 1;
@@ -1503,11 +1498,11 @@ input[type="text"] {
 
 .faq .right-faq label {
 	color: #323232;
-    font-size: 13px;
-    margin-bottom: 10px;
-    padding-right: 3px;
-    margin-top: 6px;
-    font-weight: 600;
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-right: 3px;
+	margin-top: 6px;
+	font-weight: 600;
 	display: inline-block;
 }
 
@@ -1516,12 +1511,12 @@ input[type="text"] {
 	margin-bottom: 0;
 	border: 1px solid #c7c6c6;
 	border-radius: 0px;
-    color: #202020;
-    outline: none;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 13px;
-    padding: 12px 15px;
+	color: #202020;
+	outline: none;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 12px 15px;
 	display: inline-block;
 	width: 100%;
 }
@@ -1531,46 +1526,46 @@ input[type="text"] {
 	min-height: 50px;
 	margin-bottom: 20px;
 	display: block;
-    width: 100%;
-    padding: 8px 12px;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #464a4c;
-	border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #464a4c;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 	outline: none;
-    font-weight: 400;
-    letter-spacing: 1px;
+	font-weight: 400;
+	letter-spacing: 1px;
 	font-family: sans-serif;
 }
 
 .faq .right-faq textarea:focus {
 	color: #464a4c;
-    border-color: #5cb3fd;
-    outline: 0;
+	border-color: #5cb3fd;
+	outline: 0;
 }
 
 .faq .right-faq .send-question {
 	margin-top: 12px;
 	margin-bottom: 32px;
 	color: #fff;
-    background-color: #0275d8;
-    border-color: #0275d8;
+	background-color: #0275d8;
+	border-color: #0275d8;
 	display: inline-block;
-    font-weight: 400;
-    line-height: 1.25;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
 	border: 1px solid transparent;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-radius: 4px;
+	padding: 8px 16px;
+	font-size: 16px;
+	border-radius: 4px;
 	cursor: pointer;
 }
 
 .faq .right-faq .send-question:hover {
 	color: #fff;
-    background-color: #025aa5;
-    border-color: #01549b;
+	background-color: #025aa5;
+	border-color: #01549b;
 }
