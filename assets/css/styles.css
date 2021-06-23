@@ -1569,3 +1569,41 @@ input[type="text"] {
 	background-color: #025aa5;
 	border-color: #01549b;
 }
+
+/* Full text page */
+.service-section {
+	padding: 90px 0;
+}
+
+.service-section p {
+	text-align: justify;
+	font-size: 16px;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.service-section .newscontent-img {
+	float: right;
+	margin-left: 20px;
+	width: 40%;
+}
+
+.service-section .newscontent-img img {
+	width: 100%;
+	height: auto !important;
+}
+
+.service-section ul {
+	padding-left: 40px;
+	margin-bottom: 16px;
+	list-style-type: none;
+}
+
+.service-section summary {
+	font-weight: bold;
+}
+
+.service-section span {
+	font-size: 16px;
+	color: #f1c40f;
+}
